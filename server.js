@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.status(200).json({ message: "Learning git" });
+  res.status(200).json({ message: "Start learning git" });
 });
 
 app.get("/welcome", (req, res) => {
@@ -11,5 +11,5 @@ app.get("/welcome", (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log("running at port", 3000);
+  console.log("server running at port", 3000);
 });

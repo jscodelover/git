@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.status(200).json({ message: "Start learning git" });
+  res.status(200).json({ message: "hello git" });
 });
 
 app.get("/welcome", (req, res) => {
